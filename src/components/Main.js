@@ -7,10 +7,28 @@ import Skills from './Skills';
 import sgoedecke from '../sgoedecke';
 import generateResume from '../resumeGenerator';
 
-let user = sgoedecke;
-user = generateResume()
+class Main extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      user: sgoedecke
+    }
+  }
+ render() {
+    return (
+      <div>
+        <div className='randomize'>
+          <button onClick={() =>
+            this.setState({ user: generateResume() })
+          }>Randomize</button>
+        </div>
+        <Resume user={this.state.user} />
+      </div>
+    )
+  }
+}
 
-const Main = () => (
+const Resume = ({ user }) => (
   <div>
     <Introduction name={user.name} tagline={user.tagline} email={user.email} />
     <Experience jobs={user.jobs} />

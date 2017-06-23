@@ -39,6 +39,20 @@ h2 {
 .experience {
 }
 
+.randomize {
+  position: absolute;
+  left: 20;
+  top: 20;
+}
+
+button {
+  background-color: #f4f0cb;
+  border-radius: 10px;
+  color: #685642;
+  width: 100px;
+  height: 40px;
+}
+
 .job-item {
   padding-bottom: 15px;
   margin: 5px;
