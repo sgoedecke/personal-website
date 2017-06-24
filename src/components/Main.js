@@ -20,7 +20,7 @@ class Main extends React.Component {
         <div className='topbar'>
           <div href='#' className='randomize' onClick={() =>
             this.setState({ user: generateResume() })
-          }>Randomize</div>
+          }>Generate a random resume</div>
         </div>
         <Resume user={this.state.user} />
       </div>
