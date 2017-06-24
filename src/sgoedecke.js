@@ -1,19 +1,19 @@
 const user = {
   name: 'Sean Goedecke',
-  tagline: 'I live to build shitty CRUD apps',
+  tagline: 'I build adequate software rapidly',
   email: 'sean.goedecke@gmail.com',
   jobs: [
     {
       role: 'Associate Software Engineer',
       name: 'Zendesk',
-      year: '2016',
-      description: 'I built software for customer support.'
+      year: '2016 - 2017',
+      description: 'I use React and Ruby on Rails to build good apps.'
     },
     {
       role: 'Zendesk Intern',
       name: 'Zendesk',
-      year: '2015',
-      description: 'I fetched coffee.'
+      year: '2015 - 2016',
+      description: ''
     }
   ],
   skills: [
