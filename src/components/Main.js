@@ -17,10 +17,10 @@ class Main extends React.Component {
  render() {
     return (
       <div>
-        <div className='randomize'>
-          <button onClick={() =>
+        <div className='topbar'>
+          <div href='#' className='randomize' onClick={() =>
             this.setState({ user: generateResume() })
-          }>Randomize</button>
+          }>Randomize</div>
         </div>
         <Resume user={this.state.user} />
       </div>

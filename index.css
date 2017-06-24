@@ -10,7 +10,31 @@ body {
   margin: 0;
 }
 
+.topbar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #685642;
+  color: #F4F0CB;
+  height: 40px;
+  width: 100vw;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.randomize {
+  font-size: medium;
+  text-decoration: none;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.randomize:hover {
+  color: #DED29E;
+}
+
 #app {
+  margin-top: 40px;
   margin-left: 20%;
   margin-right: 20%;
   padding: 20px;
@@ -37,20 +61,6 @@ h2 {
 }
 
 .experience {
-}
-
-.randomize {
-  position: absolute;
-  left: 20;
-  top: 20;
-}
-
-button {
-  background-color: #f4f0cb;
-  border-radius: 10px;
-  color: #685642;
-  width: 100px;
-  height: 40px;
 }
 
 .job-item {
